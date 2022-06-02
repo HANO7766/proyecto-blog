@@ -7,11 +7,20 @@ using System.Threading.Tasks;
 namespace Proyecto1
 {
     public class cliente
+
     {
-        public string nombre_cliente;
-        public string 
+        public int cliente_id;
+        public String cliente_nombre;
+        public String cliente_direccion; 
 
 
-        public string Nombre_cliente { get => nombre_cliente; set => nombre_cliente = value; }
+
+
+        public string Nombre_cliente { get => cliente_nombre; set => cliente_nombre = value; }
+
+        public cliente()
+        {
+        }
+
     }
 }
